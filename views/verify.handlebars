@@ -8,7 +8,7 @@
 </head>
 <body>
     <form method="POST" action="/verify">
-        OTP: <input type="number" name="verify">
+        OTP: <input type="number" name="verify" min="4" max="6" maxlength="6">
         <button type="submit">submit</button>
     </form>
 </body>

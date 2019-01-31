@@ -9,7 +9,7 @@
 <body>
     <form method="POST" action="/data">
         Phone no: <input type="tel" maxlength="10" name="number">
-        OTP: <input type="number" name="otp">
+        OTP: <input type="number" name="otp" min="4" max="6" maxlength="6">
         templete: <input type="text" name="temp">
         <button type="submit">submit</button>
     </form>
